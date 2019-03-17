@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 import urllib.request 
-
+import requests
 nyzo_nodes =['https://nyzo.co/status?id=15fa.9f89',
              'https://nyzo.co/status?id=15fa.9f89',
             .....] #Nyzo verifier status url
