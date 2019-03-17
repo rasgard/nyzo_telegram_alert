@@ -1,7 +1,9 @@
 from bs4 import BeautifulSoup
 import urllib.request 
 
-nyzo_nodes =['https://nyzo.co/status?id=15fa.9f89','https://nyzo.co/status?id=15fa.9f89'] #Nyzo verifier status url
+nyzo_nodes =['https://nyzo.co/status?id=15fa.9f89',
+             'https://nyzo.co/status?id=15fa.9f89',
+            .....] #Nyzo verifier status url
 alerts = ''
 
 def bot_sendtext(bot_message):
